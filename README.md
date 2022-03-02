@@ -51,7 +51,9 @@ At this point, you should have
 
         $ # Do some work
         $ git add file-you-worked-on.py
-        $ git commit
+        $ git commit -m "text changes"
+        $ git remote -v
+        $ git remote set-url origin git@github.com:JoanZ0019/python-tabular-data.git
         $ git push origin master
 
 
